@@ -26,16 +26,16 @@ require './registrar_agotado.php'
         <article class="form-container">
             <form action="registrar_agotado.php" method="post">
             <label>ID Producto:</label><br>
-            <input type="number" name="id_prod" required><br>
+            <input type="text" name="id_prod" required><br>
 
             <label>Descripción:</label><br>
             <input type="text" name="descripcion" required><br>
 
             <label>Cantidad en inventario:</label><br>
-            <input type="number" step="0.01" name="cant_inv"><br>
+            <input type="text" step="0.01" name="cant_inv"><br>
 
             <label>Cantidad sugerida:</label><br>
-            <input type="number" step="0.01" name="cant_sug"><br>
+            <input type="text" step="0.01" name="cant_sug"><br>
 
             <article class="button-container">
                 <button class="btn-guardar" type="submit">GUARDAR</button>

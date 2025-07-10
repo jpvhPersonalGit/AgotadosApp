@@ -7,7 +7,7 @@
 body {
   background-color: #FAFAFF;
   font-family: Montserrat, sans-serif;
-  margin: 5px;
+  margin: 0;
   padding: 0;
 }
 
@@ -19,7 +19,6 @@ header {
   align-items: center;
   justify-content: space-between;
   gap: 20px;
-  border-radius: 10px;
 }
 
 .logo-container {
@@ -85,7 +84,6 @@ footer {
   background-color: #292929;
   padding: 20px;
   color: #fff;
-  border-radius: 10px;
   font-style: italic;
   text-align: center;
 }/*# sourceMappingURL=style.css.map */
