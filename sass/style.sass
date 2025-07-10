@@ -1,0 +1,87 @@
+$bg-color: #FAFAFF
+$btn-primary-color: #038C17
+$btn-secondary-color: #F27405
+$btn-primary-hover-color: rgba(3, 140, 23, 0.9)
+$btn-primary-focus-color: rgba(3, 140, 23, 0.8)
+$btn-secondary-hover-color: rgba(242, 116, 5, 0.9)
+$btn-secondary-focus-color: rgba(242, 116, 5, 0.8)
+$header-color: #292929
+
+@font-face 
+  font-family: "Montserrat", sans-serif
+  src: url(./fonts/Montserrat/Montserrat-VariableFont_wght.ttf)
+  font-weight: normal
+  font-style: normal
+
+
+body
+  background-color: $bg-color
+  font-family: Montserrat, sans-serif
+  margin: 5px
+  padding: 0
+
+header
+  background: $header-color
+  padding: 25px
+  color: #FFF
+  display: flex
+  align-items: center
+  justify-content: space-between
+  gap: 20px
+  border-radius: 10px  
+
+.logo-container
+  width: 150px
+  margin-right: 25px
+  img
+    width: 100%    
+
+.form-section
+  display: flex
+  justify-content: center
+  .form-container
+    background-color: #ededed  
+    padding: 20px
+    border-radius: 15px
+    margin: 20px 0 20px 0
+    width: 50%
+    input
+      width: 100%
+      padding: 10px
+      border-radius: 5px
+      border: none
+      margin: 10px 0 10px 0
+    .button-container
+      display: flex
+      justify-content: center
+      button
+        padding: 10px
+        border-radius: 10px
+        border: none
+        width: 100%
+        color: #fff
+        font-weight: bold
+      .btn-guardar
+        margin: 10px 10px 0 0
+        background-color: $btn-primary-color
+      .btn-guardar:hover
+        background-color: $btn-primary-hover-color
+      .btn-guardar:focus
+        background-color: $btn-primary-focus-color
+      .btn-limpiar
+        margin: 10px 0 0 10px
+        background-color: $btn-secondary-color
+      .btn-limpiar:hover
+        background-color: $btn-secondary-hover-color
+      .btn-limpiar:focus
+        background-color: $btn-secondary-focus-color
+footer
+  background-color: $header-color
+  padding: 20px
+  color: #fff
+  border-radius: 10px
+  font-style: italic
+  text-align: center
+
+
+

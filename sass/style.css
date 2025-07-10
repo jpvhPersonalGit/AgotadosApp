@@ -1,0 +1,91 @@
+@font-face {
+  font-family: "Montserrat", sans-serif;
+  src: url(./fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  background-color: #FAFAFF;
+  font-family: Montserrat, sans-serif;
+  margin: 5px;
+  padding: 0;
+}
+
+header {
+  background: #292929;
+  padding: 25px;
+  color: #FFF;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  border-radius: 10px;
+}
+
+.logo-container {
+  width: 150px;
+  margin-right: 25px;
+}
+.logo-container img {
+  width: 100%;
+}
+
+.form-section {
+  display: flex;
+  justify-content: center;
+}
+.form-section .form-container {
+  background-color: #ededed;
+  padding: 20px;
+  border-radius: 15px;
+  margin: 20px 0 20px 0;
+  width: 50%;
+}
+.form-section .form-container input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  margin: 10px 0 10px 0;
+}
+.form-section .form-container .button-container {
+  display: flex;
+  justify-content: center;
+}
+.form-section .form-container .button-container button {
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  width: 100%;
+  color: #fff;
+  font-weight: bold;
+}
+.form-section .form-container .button-container .btn-guardar {
+  margin: 10px 10px 0 0;
+  background-color: #038C17;
+}
+.form-section .form-container .button-container .btn-guardar:hover {
+  background-color: rgba(3, 140, 23, 0.9);
+}
+.form-section .form-container .button-container .btn-guardar:focus {
+  background-color: rgba(3, 140, 23, 0.8);
+}
+.form-section .form-container .button-container .btn-limpiar {
+  margin: 10px 0 0 10px;
+  background-color: #F27405;
+}
+.form-section .form-container .button-container .btn-limpiar:hover {
+  background-color: rgba(242, 116, 5, 0.9);
+}
+.form-section .form-container .button-container .btn-limpiar:focus {
+  background-color: rgba(242, 116, 5, 0.8);
+}
+
+footer {
+  background-color: #292929;
+  padding: 20px;
+  color: #fff;
+  border-radius: 10px;
+  font-style: italic;
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */
