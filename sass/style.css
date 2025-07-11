@@ -50,6 +50,7 @@ header {
 .form-section .form-container .button-container {
   display: flex;
   justify-content: center;
+  gap: 15px;
 }
 .form-section .form-container .button-container button {
   padding: 10px;
@@ -58,6 +59,7 @@ header {
   width: 100%;
   color: #fff;
   font-weight: bold;
+  cursor: pointer;
 }
 .form-section .form-container .button-container .btn-guardar {
   margin: 10px 10px 0 0;
@@ -78,6 +80,27 @@ header {
 }
 .form-section .form-container .button-container .btn-limpiar:focus {
   background-color: rgba(242, 116, 5, 0.8);
+}
+.form-section .form-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+}
+.form-section .form-grid .form-group {
+  display: flex;
+  flex-direction: column;
+}
+.form-section .form-grid .span-1 {
+  grid-column: span 1;
+}
+.form-section .form-grid .span-2 {
+  grid-column: span 2;
+}
+.form-section .form-grid .span-3 {
+  grid-column: span 3;
+}
+.form-section .form-grid .span-4 {
+  grid-column: span 4;
 }
 
 footer {

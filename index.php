@@ -23,26 +23,34 @@ require './registrar_agotado.php'
         </div>
     </header>
     <section class="form-section">
-        <article class="form-container">
-            <form action="registrar_agotado.php" method="post">
-            <label>ID Producto:</label><br>
-            <input type="text" name="id_prod" required><br>
+        <div class="form-container">
+        <form class="form-grid" action="registrar_agotado.php" method="post">
+            <div class="form-group span-1">
+                <label>ID Producto:</label><br>
+                <input type="text" name="id_prod" required>
+            </div>
 
-            <label>Descripción:</label><br>
-            <input type="text" name="descripcion" required><br>
+            <div class="form-group span-3">
+                <label>Descripción:</label><br>
+                <input type="text" name="descripcion" required>
+            </div>
 
-            <label>Cantidad en inventario:</label><br>
-            <input type="text" step="0.01" name="cant_inv"><br>
+            <div class="form-group span-2">
+                <label>Cantidad en inventario:</label><br>
+                <input type="text" step="0.01" name="cant_inv">
+            </div>
 
-            <label>Cantidad sugerida:</label><br>
-            <input type="text" step="0.01" name="cant_sug"><br>
+            <div class="form-group span-2">
+                <label>Cantidad sugerida:</label><br>
+                <input type="text" step="0.01" name="cant_sug">
+            </div>
 
-            <article class="button-container">
+            <div class="button-container span-4">
                 <button class="btn-guardar" type="submit">GUARDAR</button>
                 <button class="btn-limpiar" type="reset">LIMPIAR</button>
-            </article>
+            </div>
         </form>
-        </article>
+        </div>
     </section>
     <footer>
         <p>Aplicativo desarrollado por: Juan Pablo Vargas Hernández - Todos los derechos reservados</p>
